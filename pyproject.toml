@@ -14,5 +14,14 @@ python = "^3.0"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+homepage = "https://github.com/bluszcz/openvpn-helpers/"
+repository = "https://github.com/bluszcz/openvpn-helpers/"
+
 [tool.poetry.scripts]
 openvpn_inliner = "openvpn_helpers.inline_helper:main"
