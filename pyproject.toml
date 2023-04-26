@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "openvpn-helpers"
-version = "0.1.2"
+version = "0.1.4"
 description = "Various helpers for OpenVPN"
 authors = ["bluszcz <bluszcz@bluszcz.net>"]
-license = {file = "LICENSE"}
+license = "MIT"
 readme = "README.md"
 packages = [{include = "openvpn_helpers"}]
 
