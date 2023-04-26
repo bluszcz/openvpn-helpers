@@ -3,7 +3,7 @@ name = "openvpn-helpers"
 version = "0.1.0"
 description = "Various helpers for OpenVPN"
 authors = ["bluszcz <bluszcz@bluszcz.net>"]
-license = "MIT"
+license = {file = "LICENSE"}
 readme = "README.md"
 packages = [{include = "openvpn_helpers"}]
 
