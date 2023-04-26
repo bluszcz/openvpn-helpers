@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "openvpn-helpers"
+version = "0.1.0"
+description = "Various helpers for OpenVPN"
+authors = ["bluszcz <bluszcz@bluszcz.net>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "openvpn_helpers"}]
+
+[tool.poetry.dependencies]
+python = "^3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+openvpn_inliner = "openvpn_helpers.inline_helper:main"
